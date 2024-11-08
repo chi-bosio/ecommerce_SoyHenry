@@ -80,7 +80,7 @@ Este repositorio contiene la configuración y el código necesario para ejecutar
 ## Estructura del Proyecto
 
 ```plaintext
-ecommerce-chi-bosio/
+ecommerce_SoyHenry/
 ├── src/
 │   ├── main.ts            # Punto de entrada principal
 │   ├── app.module.ts      # Módulo raíz de la aplicación

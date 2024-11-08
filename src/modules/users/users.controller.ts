@@ -75,6 +75,7 @@ export class UsersController {
     return { message: messageUpdated };
   }
 
+  @ApiOperation({ summary: 'Cambiar user a admin' })
   @HttpCode(200)
   @Put(':id/admin')
   async makeUserAdmin(@Param('id', ParseUUIDPipe) id: string) {
